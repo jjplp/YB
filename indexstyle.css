@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'Megrim';
+    src: url(./Asset/Megrim-Regular.ttf);
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Asset/Raleway-VariableFont_wght.ttf);
+}
+body{
+    background-color: #1A261D;
+}
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+    background-color: #1A261D;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index: 10;
+    height: 50px;
+    margin-top: 0;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+  
+  #class-logo{
+    float: left;
+    transform: translate(-40px,-40px);
+   background-color: transparent;
+   width: 20px;
+   height: 20px;
+   padding: 10px;
+ }
+#logo-img{
+    width: 80px;
+   height: 80px;
+}
+  li:hover, .dropdown:hover {
+      color: #1A261D;
+      background: #ff5233;
+      box-shadow: 0 0 10px #ff5233, 0 0 40px #ff5233, 0 0 80px #ff5233;
+      border-radius: 1rem;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #D9D7D7;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .landing-header{
+      color:#D9D7D7;
+  }
+  #dedication{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    transform: translate(0px,250px);
+  }
+  #title-13eAF{
+    font-family: 'Megrim', cursive;
+    text-align: center;
+    transform: translate(0px,300px);
+  }
+  .landing-header{
+    background-image: url(./Asset/landing\ header.png);
+    background-size: 550px, 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px; 
+    background-attachment: fixed;
+    margin: 0px;
+    overflow: hidden;
+  }
+  .members{
+    background:#1A261D;
+    height: 630px;
+    width: fit-content;
+    margin: 0;
+  }
+  .title-members{
+    color: #D9D7D7;
+    font-family: 'raleway';
+    text-align: left;
+    transform: translateX(150px) translateY(30px);
+  }
+  .cards{
+    display: flex;
+    transform: translateX(150px);
+  }
+  .card{
+    border-radius: 1rem;
+    padding: 5rem;
+    margin-left: -9rem;
+    box-shadow: 4px 4px 15px 2px;
+    filter: brightness(70%);
+    transition: 0.2s ease;
+  }
+  #diah{
+    background-image: url(./Asset/dadodo.png);
+    background-size: cover;
+  }
+  #gavin{
+    background-image: url(./Asset/gvn.png);
+    background-size: cover;
+  }
+  #icha{
+    background-image: url(./Asset/ichu.png);
+    background-size: cover;
+  }
+  #lala{
+    background-image: url(./Asset/lolo\ neon\ a.png);
+    background-size: cover;
+  }
+  #ommy{
+    background-image: url(./Asset/omr.png);
+    background-size: cover;
+  }
+  #radit{
+    background-image: url(./Asset/yb\ redit.png);
+    background-size: cover;
+  }
+  #raihan{
+    background-image: url(./Asset/rrm.png);
+    background-size: cover;
+  }
+  #sasti{
+    background-image: url(./Asset/sosot.png);
+    background-size: cover;
+  }
+  #zhazha{
+    background-image: url(./Asset/jojoz.png);
+    background-size: cover;
+  }
+  .card-content{
+    transform: rotate(-90deg) translateY(-95px) translateX(30px);
+    font-weight: lighter;
+  }
+  .card:hover{
+    transform:translatey(-1rem);
+    filter: brightness(100%);
+  }
+  .card:hover ~.card{
+    transform:translatex(9rem);
+  }
+  .gallery{
+    background:#1A261D;
+    height: 630px;
+    width: fit-content;
+    margin-top: 100px;
+    padding: 100px 100px 100px 50px;
+  }
+  .writing-gallery{
+    transform: translateX(150px);
+  }
+  .title-gallery{
+    color: #D9D7D7;
+    font-family: 'raleway';
+  }
+  .neon-btn {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #D9D7D7;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-family: 'raleway';
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 1rem;
+}
+
+.neon-btn:hover {
+    color: #1A261D;
+    background: #ff5233;
+    box-shadow: 0 0 10px #ff5233, 0 0 40px #ff5233, 0 0 80px #ff5233;
+    transition-delay: 1s;
+    border-radius: 1rem;
+}
+
+.neon-btn span {
+    position: absolute;
+    display: block;
+}
+
+.neon-btn span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ff5233);
+}
+
+.neon-btn:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+.neon-btn span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #ff5233);
+}
+
+.neon-btn:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.neon-btn span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #ff5233);
+}
+
+.neon-btn:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.neon-btn span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #ff5233);
+}
+
+.neon-btn:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
