@@ -106,7 +106,7 @@ ul {
     background:#1A261D;
     height: 630px;
     width: fit-content;
-    margin: 0 0 0 50px;
+    margin: 0 0 0 30px;
   }
   .title-members{
     color: #D9D7D7;
@@ -178,7 +178,7 @@ ul {
     height: 630px;
     width: fit-content;
     padding: 30px 60px 30px 60px;
-    margin: 100px 0 0 150px;
+    margin: 100px 0 0 130px;
     position: absolute;
     display: inline-flex;
     flex-wrap: wrap;
