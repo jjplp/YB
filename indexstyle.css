@@ -75,7 +75,9 @@ ul {
     text-align: left;
   }
   
-  .dropdown-content a:hover {background-color: #D9D7D7;}
+  .dropdown-content a:hover {
+    background-color: #D9D7D7;
+  }
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -100,6 +102,7 @@ ul {
     background-attachment: fixed;
     margin: 0px;
     overflow: hidden;
+    padding-top: 70px;
   }
   .members{
     background:#1A261D;
