@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Asset/Raleway-VariableFont_wght.ttf);
+}
+@media only screen and (max-width: 600px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .home{
+        align-items: center;
+        transform: translateY(40px);
+    }
+    .oops-logo img{
+            height: auto;
+            width: 100%;
+    }
+    .info{
+        color: #D9D7D7;
+        font-family: "raleway";
+        margin-left: 100px;
+        width: 50%;
+        text-align: center;
+        justify-content: center;
+    }
+}
