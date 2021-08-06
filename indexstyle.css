@@ -8,6 +8,10 @@
 }
 body{
     background-color: #1A261D;
+    height: 100%;
+}
+.landing-page{
+  min-height: 100%;
 }
 ul {
     list-style-type: none;
@@ -334,6 +338,18 @@ ul {
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
+}
+footer{
+  text-align: center;
+  font-family: 'raleway';
+  padding: 8px;
+  width: 100%;
+  background-color: #D9D7D7;
+  color: #1A261D;
+  margin-top: 500px;
+  transform: translate(-10px);
+  overflow: hidden;
+  margin-bottom: 0px;
 }
 .mobile{
   display: none;
