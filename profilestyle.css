@@ -50,8 +50,8 @@ ul {
 }
   li:hover, .dropdown:hover {
       color: #1A261D;
-      background: #ff5233;
-      box-shadow: 0 0 10px #ff5233, 0 0 40px #ff5233, 0 0 80px #ff5233;
+      background: #cd88fc;
+      box-shadow: 0 0 10px #d391ff, 0 0 20px #d391ff, 0 0 50px #d391ff;
       border-radius: 1rem;
   }
   
