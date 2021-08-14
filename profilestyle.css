@@ -409,3 +409,58 @@ input{
   text-transform: uppercase;
   font-weight: lighter;
 }
+.container-quiz{
+  display: inline;
+  float: right;
+  transform: translateX(-20%);
+  margin: 50px 0px 0px 50px;
+  background-color: #d391ff;
+  padding: 50px 0px 0px 50px;
+  border-radius: 1rem;
+}
+.quiz-title{
+  font-family: 'raleway';
+  color: #1A261D;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+.input-quiz{
+  border-radius: 0.2rem;
+  font-family: 'raleway';
+  background-color: #1A261D;
+  color: #D9D7D7;
+  border: none;
+  width: 150px;
+  height: 60px;
+  padding: 5px 0px 5px 15px;
+  font-size: medium;
+}
+.guess-btn{
+  border-radius: 0.2rem;
+  width: 90px;
+  height: 60px;
+  border: solid #1A261D;
+  background-color: #d391ff;
+  color: #1A261D;
+  padding: 10px 0px 10px 0px;
+  margin-left: 10px;
+  font-family: 'raleway';
+  font-size: medium;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.guess-btn:hover{
+  background-color: #1A261D;
+  color: #D9D7D7;
+}
+.countdown{
+  font-family: 'raleway';
+  text-transform: uppercase;
+  color: #1A261D;
+  font-size: xx-large;
+  transform: translateX(-5%) translateY(-25%);
+  display: none;
+  text-align: center;
+}

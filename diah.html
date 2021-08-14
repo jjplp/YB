@@ -100,7 +100,15 @@
               <button type="submit" class="submit-btn">Submit</button>
             </form>
          </div>
-          
+         <div class="container-quiz">
+           <h2 class="quiz-title">Guess the birthday!</h2>
+          <input type="text" name="date"placeholder="dd-mm-yyy" class="input-quiz" required>
+          <button type="submit" class="guess-btn">Guess</button>
+          <div class="countdown">
+           <h2>Birthday In:</h2>
+           <p id="demo"></p> 
+          </div>
+         </div>
     </div>
     <div id="myModal" class="modal">
       <span class="close cursor" onclick="closeModal()">&times;</span>
@@ -161,5 +169,6 @@
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div> 
     <script src="./Profilescript.js"></script>
+    <script src="./quizscript.js"></script>
   </body>
 </html>
