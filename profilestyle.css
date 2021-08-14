@@ -304,3 +304,78 @@ background-color: #1A261D;
   position: absolute;
   top: 0;
 }
+.form{
+  border: solid #d391ff;
+  max-width: 500px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  transform: translateX(5%);
+  padding: 20px 5px 20px 5px;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px #d391ff, 0 0 20px #d391ff, 0 0 50px #d391ff;
+}
+form{
+  transform: translateX(5%);
+}
+input{
+  width: 90%;
+  margin: 2px 0 2px 0;
+}
+.message{
+  height: 20px;
+  padding-bottom: 60px;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #d391ff;
+  color: #1A261D;
+  font-family: 'raleway';
+}
+.email{
+  border-radius: 0.2rem;
+  border: none;
+  background-color: #d391ff;
+  color: #1A261D;
+  font-family: 'raleway';
+  font-weight: bold;
+}
+.name{
+  border-radius: 0.2rem;
+  border: none;
+  background-color: #d391ff;
+  font-family: 'raleway';
+  color: #1A261D;
+  font-weight: bold;
+}
+.page{
+  border-radius: 0.2rem;
+  border: none;
+  background-color: #d391ff;
+  color: #1A261D;
+  font-family: 'raleway';
+  font-weight: bold;
+}
+.attachment{
+  border-radius: 0.2rem;
+  background-color: #1A261D;
+  color: #D9D7D7;
+  font-family: 'raleway';
+  margin-top: 10px;
+}
+.submit-btn{
+  border: solid #d391ff;
+  border-radius: 0.2rem;
+  background-color: #1A261D;
+  color: #D9D7D7;
+  font-family: 'raleway';
+  margin-top: 10px;
+}
+.submit-btn:hover{
+  border: solid #d391ff;
+  border-radius: 0.2rem;
+  background-color: #d391ff;
+  color: #1A261D;
+  font-family: 'raleway';
+  box-shadow: 0 0 5px #d391ff, 0 0 5px #d391ff, 0 0 5px #d391ff;
+}
