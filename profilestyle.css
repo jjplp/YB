@@ -379,3 +379,11 @@ input{
   font-family: 'raleway';
   box-shadow: 0 0 5px #d391ff, 0 0 5px #d391ff, 0 0 5px #d391ff;
 }
+.title-msg{
+  padding: 0;
+  margin: 0px 0px 5px 25px;
+  color: #D9D7D7;
+  font-family: 'raleway';
+  text-transform: uppercase;
+  font-weight: lighter;
+}
