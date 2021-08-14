@@ -34,21 +34,118 @@
            <div class="flip-box">
               <div class="flip-box-inner">
                 <div class="flip-box-front">
-                  <img src="./Asset/dadodo.png" alt="Diah">
+                  <img src="./Asset/dadodo.png" alt="Diah" class="flip-img">
                 </div>
                 <div class="flip-box-back">
                   <h1 class="flip-text">Diah Artanti Sekarayu B.S.</h1>
                 </div>
            </div>
         </div>
-        <div class="about">
-         <button type="button" class="collapsible">About</button>
-         <div class="content">
-          <p>Please send the content you wish to display in the message form!</p>
-         </div>  
-        </div>
-       </div>
+        <div class="rightframe">
+          <div class="about">
+            <button type="button" class="collapsible">About</button>
+            <div class="content">
+             <p>Please send the content you wish to display in the message form!</p>
+            </div>  
+          </div>
+          <div class="gallery">
+            <div class="box">
+              <div class="column">
+                <div class="imgbox">
+                  <img src="./Asset/didi.jpg" onclick="openModal();currentSlide(1)">
+                </div>
+                <div class="imgbox">
+                  <img src="./Asset/diah.jpg" onclick="openModal();currentSlide(2)">
+                </div>
+                <div class="imgbox">
+                  <img src="./Asset/diah2.jpg" onclick="openModal();currentSlide(3)">
+                </div>
+                <div class="imgbox">
+                  <img src="./Asset/diah3.jpg" onclick="openModal();currentSlide(4)">
+                </div>
+                <div class="imgbox">
+                  <img src="./Asset/diah5.jpg" onclick="openModal();currentSlide(5)">
+                </div> 
+              </div>
+              <div class="column">
+                <div class="imgbox">
+                  <img src="./Asset/diah6.jpg" onclick="openModal();currentSlide(6)">
+                </div>
+                <div class="imgbox">
+                  <img src="./Asset/diah7.jpg" onclick="openModal();currentSlide(7)">
+                </div>
+                <div class="imgbox">
+                  <img src="./Asset/diah8.jpg" onclick="openModal();currentSlide(8)">
+                </div>
+                <div class="imgbox">
+                  <img src="./Asset/diah9.jpg" onclick="openModal();currentSlide(9)">
+                </div>
+                <div class="imgbox">
+                  <img src="./Asset/diah10.jpg" onclick="openModal();currentSlide(10)">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div> 
     </div>
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+    
+        <div class="mySlides">
+          <div class="numbertext">1 / 10</div>
+          <img src="./Asset/didi.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+          <div class="numbertext">2 / 10</div>
+          <img src="./Asset/diah.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+          <div class="numbertext">3 / 10</div>
+          <img src="./Asset/diah2.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+          <div class="numbertext">4 / 10</div>
+          <img src="./Asset/diah3.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 10</div>
+          <img src="./Asset/diah5.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 10</div>
+          <img src="./Asset/diah6.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">7 / 10</div>
+          <img src="./Asset/diah7.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">8 / 10</div>
+          <img src="./Asset/diah8.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">9 / 10</div>
+          <img src="./Asset/diah9.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">10 / 10</div>
+          <img src="./Asset/diah10.jpg" style="width:100%">
+        </div>
+    
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div> 
     <script src="./Profilescript.js"></script>
   </body>
 </html>
