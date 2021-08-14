@@ -464,3 +464,13 @@ input{
   display: none;
   text-align: center;
 }
+footer{
+  text-align: center;
+  font-family: 'raleway';
+  padding: 8px;
+  width: 100%;
+  background-color: #D9D7D7;
+  color: #1A261D;
+  overflow: hidden;
+  margin: 50px 0px 0px 0px;
+}
