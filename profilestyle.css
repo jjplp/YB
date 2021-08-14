@@ -382,6 +382,7 @@ input{
   color: #D9D7D7;
   font-family: 'raleway';
   margin-top: 10px;
+  cursor: pointer;
 }
 .submit-btn{
   border: solid #d391ff;
@@ -390,6 +391,7 @@ input{
   color: #D9D7D7;
   font-family: 'raleway';
   margin-top: 10px;
+  cursor: pointer;
 }
 .submit-btn:hover{
   border: solid #d391ff;
