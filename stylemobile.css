@@ -37,28 +37,33 @@
         width: 95%;
         margin-top: 15%;
     }
-    .bottom-nav{
-        background-color: #1A261D;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 96%;
-        position: fixed;
-        bottom: 0;
-        height: 10%;
-    }
-    .navbtn{
-        margin-left: 15%;
-        margin-top: 7%;
-        margin-right: 7%;
-        display: inline-block;
-        transform: scale(2);
-        background-color: #1A261D;
-        border-radius: 5rem;
-        height: 35%;
-        width: 7%;
-    }
-    #home{
-        box-shadow: 0 0 5px #fcf7c8, 0 0 5px #fcf7c8, 0 0 5px #fcf7c8;
-    }
+   .dropbtn{
+       background-color: #1A261D;
+       border: none;
+       border-radius: 6rem;
+       box-shadow: 0 0 5px #fcf7c8, 0 0 5px #fcf7c8, 0 0 5px #fcf7c8;
+   }
+   .dropup{
+       position: relative;
+       display: inline-block;
+   }
+   .dropup-content{
+       display: none;
+       background-color: #1A261D;
+       border: none;
+       width: 99%;
+       padding-left: 5%;
+       z-index: 1;
+       margin-right: auto;
+       margin-left: auto;
+   }
+   .dropup-content img{
+       background-color: #faf3b1;
+       border-radius: 6rem;
+       border: #faf3b1 solid;
+       padding: 5% 5% 5% 5%;
+   }
+   .dropbtn:hover .dropup-content{
+       display: block;
+   }
 }
